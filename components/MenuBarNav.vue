@@ -7,8 +7,9 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item href="#">Link</b-nav-item>
-          <b-nav-item href="#" disabled>Disabled</b-nav-item>
+          <b-nav-item href="#page1">Page 1</b-nav-item>
+          <b-nav-item href="#page2">Page 2</b-nav-item>
+          <b-nav-item href="#page3">Page 3</b-nav-item>
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->

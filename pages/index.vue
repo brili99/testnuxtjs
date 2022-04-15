@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <!-- <div>
     <MenuBarNav />
     <MenuSideBar />
     <div>
@@ -23,7 +23,21 @@
       </b-jumbotron>
     </div>
     <b-button v-b-toggle.sidebar-1>Toggle Sidebar</b-button>
-  </div>
+  </div> -->
+  <section style="width: 100%">
+    <full-page>
+      <section class="section" style="background: #f59e0b" id="page1">
+        <MenuBarNav />
+        <div>Page one</div>
+      </section>
+      <section class="section" style="background: #ef4444" id="page2">
+        <div>Page Two</div>
+      </section>
+      <section class="section" style="background: #001122" id="page3">
+        <div>Page Three</div>
+      </section>
+    </full-page>
+  </section>
 </template>
 
 <script>
@@ -34,3 +48,14 @@ export default {
   components: { MenuBarNav, MenuSideBar },
 };
 </script>
+
+<style scoped>
+.section {
+  height: 100vh;
+  width: 100%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px; */
+}
+</style>

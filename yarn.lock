@@ -1316,6 +1316,11 @@
     mustache "^2.3.0"
     stack-trace "0.0.10"
 
+"@openafg/nuxt-fullpage@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@openafg/nuxt-fullpage/-/nuxt-fullpage-1.0.5.tgz#711d67ab976a6afd4c14327f1b70200acf5b2348"
+  integrity sha512-9CnOYXXd1tCQm78Ug12zNhjlWFIpbYmhf5K/+dh+NoNmwe1+w5U0EA+vUHYXUFhCZq9U0esrIbZjgNYd9R6ulg==
+
 "@polka/url@^1.0.0-next.20":
   version "1.0.0-next.21"
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"

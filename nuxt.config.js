@@ -35,6 +35,14 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
+    [
+      "@openafg/nuxt-fullpage",
+      {
+        // activeSection: 0,
+        // mouseWheelSensitivity: 120,
+        showIndicators: false,
+      },
+    ],
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
